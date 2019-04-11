@@ -32,7 +32,7 @@ class mylist():
     l = []
 
     def getinputfromuser (self, p):
-        prompt = p + " or q to quit"
+        prompt = 'Enter ' + p + " or q to quit"
         response = ""
         s = mystr()
         while True:
@@ -48,7 +48,7 @@ class mytuple():
     t = ()
 
     def getinputfromuser (self, p):
-        prompt = p + " or q to quit"
+        prompt = 'Enter ' + p + " or q to quit"
         response = ""
         s = mystr()
         while True:
@@ -66,7 +66,7 @@ class mydate():
     date_name = ''
 
     def getinputfromuser (self, dummy):
-         prompt = 'for ' + self.date_name + ': ' 
+         prompt = 'for ' + self.date_name + ' enter ' 
 
          year= mystr()
          year_prompt = prompt + 'enter year'
